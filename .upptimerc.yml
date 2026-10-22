@@ -18,7 +18,6 @@ sites:
     url: https://vieschool-landing.vercel.app
 
 status-website:
-  cname: status.saintzzz.dev
   baseUrl: /upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: saintzzz status
