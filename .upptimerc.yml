@@ -39,3 +39,4 @@ i18n:
   down: Down
 # monitored via Setup CI on .upptimerc.yml changes
  
+# retrigger setup
