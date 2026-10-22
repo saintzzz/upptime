@@ -38,3 +38,4 @@ i18n:
   degraded: Degraded
   down: Down
 # monitored via Setup CI on .upptimerc.yml changes
+ 
