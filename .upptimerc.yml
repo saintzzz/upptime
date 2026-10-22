@@ -1,0 +1,40 @@
+owner: saintzzz
+repo: upptime
+
+sites:
+  - name: AAL Site
+    url: https://aal-site.vercel.app
+  - name: So Chu Nhiem So
+    url: https://so-chu-nhiem-so.vercel.app
+  - name: TVC360 Cong Cu So
+    url: https://tvc360-congcuso.vercel.app
+  - name: IOE Le Duy Minh
+    url: https://ioe-leduyminh.vercel.app
+  - name: Slideforge
+    url: https://slideforge.vercel.app
+  - name: AAL Fasttrack
+    url: https://aal-fasttrack-web.vercel.app
+  - name: VieSchool Landing
+    url: https://vieschool-landing.vercel.app
+
+status-website:
+  cname: status.saintzzz.dev
+  baseUrl: /upptime
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  name: saintzzz status
+  introTitle: "Uptime status for saintzzz projects"
+  introMessage: 7 Vercel deployments monitored every 5 minutes via GitHub Actions.
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+
+i18n:
+  activeIncidents: Active incidents
+  incidentReport: Incident report
+  activeIncidentsHeading: Current service disruptions
+  systems: Systems
+  operational: Operational
+  degraded: Degraded
+  down: Down
