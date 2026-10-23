@@ -1,19 +1,21 @@
 owner: saintzzz
 repo: upptime
 
-# Sites protected by Vercel WAF bot-deny monitor a /health.* bypass path;
-# unprotected sites monitor the real root page.
+# All sites monitor a /health.* bypass path on the real production domain
+# (custom domains - <project>.vercel.app is not always the live alias).
+# WAF bot-deny / proxy login-redirect make root paths unreliable targets;
+# every project carries a WAF 'bypass-health' rule for /health.*.
 sites:
   - name: AAL Site
     url: https://aal-site.vercel.app/health.txt
   - name: So Chu Nhiem So
-    url: https://so-chu-nhiem-so.vercel.app
+    url: https://sochunhiem.vieschool.com/health.svg
   - name: TVC360 Cong Cu So
-    url: https://tvc360-congcuso.vercel.app/health.svg
+    url: https://congcuso.vieschool.com/health.svg
   - name: IOE Le Duy Minh
-    url: https://ioe-leduyminh.vercel.app/health.txt
+    url: https://ea.vieschool.com/health.txt
   - name: Slideforge
-    url: https://slideforge.vercel.app
+    url: https://slideforge.vieschool.com/health.svg
   - name: AAL Fasttrack
     url: https://fasttrack.aal.vn/health.txt
   - name: VieSchool Landing
